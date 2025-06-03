@@ -1,0 +1,59 @@
+
+body {
+   color:rgb(255, 255, 255);
+   font-size: 23px;
+   text-align: center;
+   background-color: #777777;
+   font-family: 'Merriweather', serif;
+
+}
+
+h1{
+    color:#550000 ;
+}
+
+p {
+    text-align:center
+}
+
+
+table {
+    width:75%;
+    margin: 0 auto;
+    border-color: #550000 ;
+    border-collapse: collapse;
+    border: 3px solid #550000;
+}
+
+tr:hover{background-color:	rgba(255, 218, 210, 0.547);
+}
+
+th{background-color:#550000 ;
+color: rgb(255, 255, 255);}
+
+img{
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 3px solid white;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+a {
+  color: #ffffff;
+  font-size: 23px;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+
+}
+a:hover {
+  color: #550000;
+  text-decoration: underlines;
+}
+
+a:visited {
+  color: #550000; 
+}
